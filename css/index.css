@@ -372,9 +372,10 @@ header div {
 .food__pictures {
     display: flex;
     justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .food__pictures img {
-    padding: 2%;
+  padding: 1% 0;
 }
 
